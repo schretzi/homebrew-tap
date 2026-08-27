@@ -4,11 +4,11 @@ cask "kerberoskeepalive" do
 
   on_macos do
     on_arm do
-      sha256 "cbaba29de2205846f811fee036a821c7fefd3722bb51ea0a2a2273bc017ada10"
+      sha256 "091efdc38c9cb3cea8ccb79796b7828ac1c5532d8c89497620b6d80e664bae38"
       url "https://github.com/schretzi/KerberosKeepAlive/releases/download/v#{version}/kerberoskeepalive_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "a9471a0e46ac2266502e3f6266d60f10f90fd8368fd9c8d01821f5c844a07301"
+      sha256 "4d8328f5e01c710a2aee699480d4f6b3efda3396992a99f04d3c6db0ce356c2e"
       url "https://github.com/schretzi/KerberosKeepAlive/releases/download/v#{version}/kerberoskeepalive_#{version}_darwin_amd64.tar.gz"
     end
   end
