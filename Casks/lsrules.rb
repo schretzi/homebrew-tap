@@ -1,17 +1,17 @@
-# Written by hand for v0.1.0 because the LittleSnitchRules repository has no
+# Written by hand (v0.1.0, v0.2.0) because the LittleSnitchRules repository has no
 # HOMEBREW_TAP_TOKEN secret yet, so goreleaser's cask publish got a 401. Once
 # that secret exists this file is generated like the others - do not hand-edit
 # it after that.
 cask "lsrules" do
-  version "0.1.0"
+  version "0.2.0"
 
   on_macos do
     on_arm do
-      sha256 "7d16bec3e8ac47d0f9e0caaa2327262d0200afd6386777db915720c75dc3a6fe"
+      sha256 "e6333c39746f181b1e08eec2cee2e908532e794621a4ff5620634eed554b9109"
       url "https://github.com/schretzi/LittleSnitchRules/releases/download/v#{version}/lsrules_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "55c76c622e8b7e3a6b42f41238c5c56df5eb570979a1f8415d73d6c54466be66"
+      sha256 "da6f4a4a96303475c67c7fe7c2cbba6e0ac63ddf1285de601f78ff656cd0e316"
       url "https://github.com/schretzi/LittleSnitchRules/releases/download/v#{version}/lsrules_#{version}_darwin_amd64.tar.gz"
     end
   end
