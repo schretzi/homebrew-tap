@@ -1,7 +1,8 @@
-# Written by hand (v0.1.0, v0.2.0) because the LittleSnitchRules repository has no
-# HOMEBREW_TAP_TOKEN secret yet, so goreleaser's cask publish got a 401. Once
-# that secret exists this file is generated like the others - do not hand-edit
-# it after that.
+# Hand-written for v0.1.0 and v0.2.0, when LittleSnitchRules had no
+# HOMEBREW_TAP_TOKEN and goreleaser's cask publish got a 401. The secret
+# exists now, so the next release overwrites this file like every other cask
+# here - do not hand-edit it from here on. That path has not run yet, though:
+# it is proven by the next release, not by the secret being present.
 cask "lsrules" do
   version "0.2.0"
 
